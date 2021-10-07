@@ -3,19 +3,22 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App bg-red-700">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Eslint <code> Airbnb </code> Boilerplate.
+        </p>
+        <p>
+          Airbnb / React / Material UI / Tailwind / Eslint
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://github.com/r0binxp"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          By Matias Heredia
         </a>
       </header>
     </div>

@@ -1,0 +1,21 @@
+{
+    "extends": [
+        "react-app", 
+        "react-app/jest",
+        "airbnb"   
+    ],
+    "rules": {
+        "react/react-in-jsx-scope": "off",
+        "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+        "react/jsx-one-expression-per-line": "off",
+        "no-var": "warn",
+        "semi": "warn",
+        "comma-dangle": "warn",
+        "no-unused-vars": "warn",
+        "no-shadow": "off",
+        "arrow-parens": "warn",
+        "react/jsx-props-no-spreading": "off",
+        "object-curly-newline": "off",
+        "no-param-reassign": "off"
+    }
+}
